@@ -8,7 +8,7 @@ import PolicyPage from "./components/policy"
 import PrivacyPage from "./components/privacy"
 import SolutionsPage from "./components/solutions"
 import TermsPage from "./components/tos"
-import Layout from "./layouts/simple"
+import Layout from "./layouts/default"
 
 export default class App extends React.Component {
   render() {

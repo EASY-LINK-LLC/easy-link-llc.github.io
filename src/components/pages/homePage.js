@@ -1,7 +1,7 @@
 import { Display, Divider, Image, Spacer, Text } from "@geist-ui/core"
 import { Cloud, Cpu, Database, HardDrive, Server, Shield, Terminal } from "@geist-ui/react-icons"
 import React from "react"
-import { ReactComponent as connected_world } from "../../assets/svg/connected_world.svg"
+import connected_world from "../../assets/svg/connected_world.svg"
 import Contents from "../contents"
 import Features from "../features"
 import Products from "../products"

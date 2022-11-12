@@ -1,10 +1,10 @@
 import { Card, Dot, Grid, Image, Link, Spacer, Text } from "@geist-ui/core"
 import React from "react"
-import { ReactComponent as connected_world } from "../assets/svg/connected_world.svg"
-import { ReactComponent as server_cluster } from "../assets/svg/server_cluster.svg"
-import { ReactComponent as video_influencer } from "../assets/svg/video_influencer.svg"
-import { ReactComponent as video_streaming } from "../assets/svg/video_streaming.svg"
-import { ReactComponent as virtual_reality } from "../assets/svg/virtual_reality.svg"
+import connected_world from "../assets/svg/connected_world.svg"
+import server_cluster from "../assets/svg/server_cluster.svg"
+import video_influencer from "../assets/svg/video_influencer.svg"
+import video_streaming from "../assets/svg/video_streaming.svg"
+import virtual_reality from "../assets/svg/virtual_reality.svg"
 
 export default class Solutions extends React.Component {
   render() {

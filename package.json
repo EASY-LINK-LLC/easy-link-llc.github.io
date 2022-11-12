@@ -1,8 +1,8 @@
 {
   "name": "easylink",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": true,
-  "homepage": "https://github.com/EASY-LINK-LLC/easy-link-llc.github.io",
+  "homepage": "https://easylinkserver.com",
   "dependencies": {
     "@geist-ui/core": "^2.3.8",
     "@geist-ui/react-icons": "^1.0.1",
@@ -40,8 +40,10 @@
     ]
   },
   "devDependencies": {
+    "@svgr/webpack": "^6.5.1",
     "gh-pages": "^4.0.0",
     "nodemon": "^2.0.20",
-    "react-snap": "^1.23.0"
+    "react-snap": "^1.23.0",
+    "svg-url-loader": "^8.0.0"
   }
 }
