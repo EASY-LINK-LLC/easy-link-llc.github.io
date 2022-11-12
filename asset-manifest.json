@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/css/main.7736e151.css",
-    "main.js": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/js/main.ac3ce503.js",
-    "static/js/496.f4b4f4a8.chunk.js": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/js/496.f4b4f4a8.chunk.js",
-    "static/media/applications.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/applications.acf3d93e47f9ea6be58ce2d9d195373e.svg",
-    "static/media/features_overview.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/features_overview.da11ed8afd892a74f563f77a277816fe.svg",
-    "static/media/virtual_reality.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/virtual_reality.db5f8d23a6d93c1379f859e5446d8ab3.svg",
-    "static/media/connected_world.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/connected_world.88b70da138b32460f27544774acd5d8e.svg",
-    "static/media/programmer_m.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/programmer_m.c80c544d47267f724de94f453c958b69.svg",
-    "static/media/happy_2020.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/happy_2020.626b682e03babcc466a15f079cfe4f0b.svg",
-    "static/media/happy_2021.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/happy_2021.c207e49e05d281bf6af910ba5f4ce2fa.svg",
-    "static/media/team.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/team.6c509a45a23ddda458ee8d77d15e82a7.svg",
-    "static/media/programmer_f.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/programmer_f.fc5bb2169142d19fd835e72ede86552b.svg",
-    "static/media/video_influencer.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/video_influencer.06c9608b269531cc1c2f5e65281b13dc.svg",
-    "static/media/maintenance.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/maintenance.99ffa2d998999a77ef4889d225ae9996.svg",
-    "static/media/secure_server.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/secure_server.c24d3054280d5ce6c8b38079e005ae85.svg",
-    "static/media/faq.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/faq.43178726050acf49eea751899fce0c3f.svg",
-    "static/media/video_streaming.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/video_streaming.88722d4b6e6635567f629598ebb5659f.svg",
-    "static/media/server_cluster.svg": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/media/server_cluster.ed6f2622f5c18688828a05e623ec7762.svg",
-    "index.html": "/EASY-LINK-LLC/easy-link-llc.github.io.git/index.html",
-    "main.7736e151.css.map": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/css/main.7736e151.css.map",
-    "main.ac3ce503.js.map": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/js/main.ac3ce503.js.map",
-    "496.f4b4f4a8.chunk.js.map": "/EASY-LINK-LLC/easy-link-llc.github.io.git/static/js/496.f4b4f4a8.chunk.js.map"
+    "main.css": "/EASY-LINK-LLC/easy-link-llc.github.io/static/css/main.7736e151.css",
+    "main.js": "/EASY-LINK-LLC/easy-link-llc.github.io/static/js/main.0577c0f4.js",
+    "static/js/496.f4b4f4a8.chunk.js": "/EASY-LINK-LLC/easy-link-llc.github.io/static/js/496.f4b4f4a8.chunk.js",
+    "static/media/applications.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/applications.acf3d93e47f9ea6be58ce2d9d195373e.svg",
+    "static/media/features_overview.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/features_overview.da11ed8afd892a74f563f77a277816fe.svg",
+    "static/media/virtual_reality.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/virtual_reality.db5f8d23a6d93c1379f859e5446d8ab3.svg",
+    "static/media/connected_world.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/connected_world.88b70da138b32460f27544774acd5d8e.svg",
+    "static/media/programmer_m.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/programmer_m.c80c544d47267f724de94f453c958b69.svg",
+    "static/media/happy_2020.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/happy_2020.626b682e03babcc466a15f079cfe4f0b.svg",
+    "static/media/happy_2021.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/happy_2021.c207e49e05d281bf6af910ba5f4ce2fa.svg",
+    "static/media/team.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/team.6c509a45a23ddda458ee8d77d15e82a7.svg",
+    "static/media/programmer_f.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/programmer_f.fc5bb2169142d19fd835e72ede86552b.svg",
+    "static/media/video_influencer.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/video_influencer.06c9608b269531cc1c2f5e65281b13dc.svg",
+    "static/media/maintenance.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/maintenance.99ffa2d998999a77ef4889d225ae9996.svg",
+    "static/media/secure_server.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/secure_server.c24d3054280d5ce6c8b38079e005ae85.svg",
+    "static/media/faq.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/faq.43178726050acf49eea751899fce0c3f.svg",
+    "static/media/video_streaming.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/video_streaming.88722d4b6e6635567f629598ebb5659f.svg",
+    "static/media/server_cluster.svg": "/EASY-LINK-LLC/easy-link-llc.github.io/static/media/server_cluster.ed6f2622f5c18688828a05e623ec7762.svg",
+    "index.html": "/EASY-LINK-LLC/easy-link-llc.github.io/index.html",
+    "main.7736e151.css.map": "/EASY-LINK-LLC/easy-link-llc.github.io/static/css/main.7736e151.css.map",
+    "main.0577c0f4.js.map": "/EASY-LINK-LLC/easy-link-llc.github.io/static/js/main.0577c0f4.js.map",
+    "496.f4b4f4a8.chunk.js.map": "/EASY-LINK-LLC/easy-link-llc.github.io/static/js/496.f4b4f4a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7736e151.css",
-    "static/js/main.ac3ce503.js"
+    "static/js/main.0577c0f4.js"
   ]
 }
