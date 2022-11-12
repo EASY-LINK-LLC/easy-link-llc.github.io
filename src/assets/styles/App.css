@@ -1,0 +1,13 @@
+.logo {
+    filter: grayscale(20%);
+    width: 160px;
+    height: auto;
+}
+
+.socialIcons a {
+    color: grey;
+}
+
+.socialIcons a:hover {
+    color: blue;
+}
