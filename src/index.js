@@ -1,15 +1,11 @@
-import React from "react"
-// import ReactDOM from 'react-dom'
-import App from "./App"
-import reportWebVitals from "./reportWebVitals"
-
 import { CssBaseline, GeistProvider } from "@geist-ui/core"
+import React from "react"
+import { hydrate, render } from "react-dom"
 import { BrowserRouter } from "react-router-dom"
-
+import App from "./App"
 import "./assets/styles/App.css"
 import "./assets/styles/index.css"
-
-import { hydrate, render } from "react-dom"
+import reportWebVitals from "./reportWebVitals"
 
 const rootElement = document.getElementById("root")
 
