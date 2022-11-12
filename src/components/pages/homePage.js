@@ -16,17 +16,17 @@ export default class HomePage extends React.Component {
               <Text p>
                 We offer <Server size={16} />
                 <Spacer inline w={0.5} />
-                <Cloud size={16} />
+                <Cloud size={16} alt="cloud server" />
                 <Spacer inline w={0.5} />
-                <Cpu size={16} />
+                <Cpu size={16} alt="hign-end processors" />
                 <Spacer inline w={0.5} />
-                <HardDrive size={16} />
+                <HardDrive size={16} alt="reliable hard drive" />
                 <Spacer inline w={0.5} />
-                <Database size={16} />
+                <Database size={16} alt="reliable database" />
                 <Spacer inline w={0.5} />
-                <Shield inline size={16} />
+                <Shield inline size={16} alt="Anti-DDoS Protection" />
                 <Spacer inline w={0.5} />
-                <Terminal size={16} />
+                <Terminal size={16} alt="Full Root Access" />
               </Text>
               <br />
               <Text small>
