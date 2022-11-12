@@ -1,10 +1,8 @@
 import { Grid, Image, Spacer, Text } from "@geist-ui/core"
-import { Component } from "react"
-
-import programmer_f from "../assets/svg/programmer_f.svg"
-import programmer_m from "../assets/svg/programmer_m.svg"
-
-export default class Contents extends Component {
+import React from "react"
+import { ReactComponent as programmer_f } from "../assets/svg/programmer_f.svg"
+import { ReactComponent as programmer_m } from "../assets/svg/programmer_m.svg"
+export default class Contents extends React.Component {
   render() {
     return (
       <>

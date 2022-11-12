@@ -1,9 +1,8 @@
 import { Display, Image, Text } from "@geist-ui/core"
-import { Component } from "react"
+import React from "react"
+import { ReactComponent as features_overview } from "../../assets/svg/features_overview.svg"
 
-import features_overview from "../../assets/svg/features_overview.svg"
-
-export default class QuotePage extends Component {
+export default class QuotePage extends React.Component {
   render() {
     return (
       <>

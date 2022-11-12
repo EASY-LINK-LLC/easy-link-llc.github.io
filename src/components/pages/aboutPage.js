@@ -1,9 +1,9 @@
 import { Display, Grid, Image, Spacer, Text } from "@geist-ui/core"
 import React from "react"
 
-import happy_2020 from "../../assets/svg/happy_2020.svg"
-import happy_2021 from "../../assets/svg/happy_2021.svg"
-import team from "../../assets/svg/team.svg"
+import { ReactComponent as happy_2020 } from "../../assets/svg/happy_2020.svg"
+import { ReactComponent as happy_2021 } from "../../assets/svg/happy_2021.svg"
+import { ReactComponent as team } from "../../assets/svg/team.svg"
 
 import FAQ from "../faq"
 

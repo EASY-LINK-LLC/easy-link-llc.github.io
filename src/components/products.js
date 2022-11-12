@@ -1,7 +1,7 @@
 import { Card, Grid, Link, Text } from "@geist-ui/core"
-import { Component } from "react"
+import React from "react"
 
-export default class Products extends Component {
+export default class Products extends React.Component {
   render() {
     return (
       <>
