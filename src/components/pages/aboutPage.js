@@ -4,7 +4,7 @@ import React from "react"
 import happy_2020 from "../../assets/svg/happy_2020.svg"
 import happy_2021 from "../../assets/svg/happy_2021.svg"
 import team from "../../assets/svg/team.svg"
-
+import Contents from "../contents"
 import FAQ from "../faq"
 
 class AboutPage extends React.Component {
@@ -16,7 +16,7 @@ class AboutPage extends React.Component {
             caption={
               <>
                 <Text p>We are Easy Link</Text>
-                <Text small>
+                <Text p>
                   A global bare-metal server hosting company that specializes on cutting-edge hardware and high-speed
                   data transport for bandwidth-hungry companies.
                 </Text>
@@ -26,6 +26,9 @@ class AboutPage extends React.Component {
             <Image width="400px" height="200px" src={happy_2021} />
           </Display>
         </Grid.Container>
+        <Spacer h={8} />
+
+        <Contents />
 
         <Spacer h={4} />
 
@@ -59,7 +62,7 @@ class AboutPage extends React.Component {
         <Display
           caption={
             <>
-              <Text small>
+              <Text p>
                 16 LocationsUnited States: Los Angeles • Dallas • Chicago • AshburnEurope: Amsterdam • London •
                 Barcelona • MoscowAfrica: JohannesburgAsia: Mumbai, Tokyo, Singapore, Taipei, SeoulS. America: São
                 PauloOceania: Sydney

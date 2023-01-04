@@ -2,7 +2,6 @@ import { Display, Divider, Image, Spacer, Text } from "@geist-ui/core"
 import { Cloud, Cpu, Database, HardDrive, Server, Shield, Terminal } from "@geist-ui/react-icons"
 import React from "react"
 import connected_world from "../../assets/svg/connected_world.svg"
-import Contents from "../contents"
 import Features from "../features"
 import Products from "../products"
 
@@ -42,21 +41,13 @@ export default class HomePage extends React.Component {
         </Display>
 
         <Spacer h={4} />
-
-        <Products />
-
+        <Features />
         <Spacer h={4} />
 
         <Divider>Why us?</Divider>
 
         <Spacer h={4} />
-
-        <Features />
-
-        <Spacer h={8} />
-
-        <Contents />
-
+        <Products />
         <Spacer h={4} />
       </>
     )

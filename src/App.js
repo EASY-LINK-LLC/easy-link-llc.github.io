@@ -1,14 +1,14 @@
 import React from "react"
 import { Route, Switch } from "react-router-dom"
+import Layout from "./components/layouts/default"
 import AboutPage from "./components/pages/aboutPage"
 import HomePage from "./components/pages/homePage"
 import PricePage from "./components/pages/pricePage"
 import QuotePage from "./components/pages/qoutePage"
+import SolutionsPage from "./components/pages/solutionsPage"
 import PolicyPage from "./components/policy"
 import PrivacyPage from "./components/privacy"
-import SolutionsPage from "./components/solutions"
 import TermsPage from "./components/tos"
-import Layout from "./components/layouts/default"
 
 export default class App extends React.Component {
   render() {

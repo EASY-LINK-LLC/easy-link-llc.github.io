@@ -56,12 +56,12 @@ const FooterCopyright = () => {
         <Spacer h={5} />
 
         <Grid.Container gap={1} justify="center">
-          <Grid xs justify="center">
+          <Grid xs>
             <a href="https://www.easylinkserver.com" rel="noopener noreferrer">
               <Image className="logo" src={logo} alt="Easy Link Server logo" width="160px" />
             </a>
           </Grid>
-          <Grid xs justify="center">
+          <Grid xs>
             <Grid.Container>
               <Grid xs={24}>
                 <Text h4>Services</Text>
@@ -88,7 +88,7 @@ const FooterCopyright = () => {
               </Grid>
             </Grid.Container>
           </Grid>
-          <Grid xs justify="center">
+          <Grid xs>
             <Grid.Container>
               <Grid xs={24}>
                 <Text h4>Useful Links</Text>
@@ -115,7 +115,7 @@ const FooterCopyright = () => {
               </Grid>
             </Grid.Container>
           </Grid>
-          <Grid xs justify="center">
+          <Grid xs>
             <Grid.Container>
               <Grid xs={24}>
                 <Text h4>Contact</Text>

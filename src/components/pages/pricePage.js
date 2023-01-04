@@ -1,8 +1,7 @@
 import { Grid, Link, Spacer, Text } from "@geist-ui/core"
 import React from "react"
-
 import Faq from "../faq"
-import Features from "../features"
+import Products from "../products"
 
 export default class Price extends React.Component {
   render() {
@@ -23,8 +22,9 @@ export default class Price extends React.Component {
           </Grid>
         </Grid.Container>
         <Spacer h={4} />
-        <Features />
+        <Products />
         <Spacer h={4} />
+
         <Faq />
       </>
     )
