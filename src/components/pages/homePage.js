@@ -1,4 +1,4 @@
-import { Display, Divider, Image, Spacer, Text } from "@geist-ui/core"
+import { Display, Divider, Image, Spacer, Text, Link } from "@geist-ui/core"
 import { Cloud, Cpu, Database, HardDrive, Server, Shield, Terminal } from "@geist-ui/react-icons"
 import React from "react"
 import connected_world from "../../assets/svg/connected_world.svg"
@@ -9,45 +9,61 @@ export default class HomePage extends React.Component {
   render() {
     return (
       <>
+        <Image width="1200px" height="540px" src={connected_world} />
         <Display
           caption={
             <>
               <Text p>
-                We offer <Server size={16} />
-                <Spacer inline w={0.5} />
-                <Cloud size={16} alt="cloud server" />
-                <Spacer inline w={0.5} />
-                <Cpu size={16} alt="hign-end processors" />
-                <Spacer inline w={0.5} />
-                <HardDrive size={16} alt="reliable hard drive" />
-                <Spacer inline w={0.5} />
-                <Database size={16} alt="reliable database" />
-                <Spacer inline w={0.5} />
-                <Shield inline size={16} alt="Anti-DDoS Protection" />
-                <Spacer inline w={0.5} />
-                <Terminal size={16} alt="Full Root Access" />
+                Easy Link LLC, based in Los Angeles, offers affordable, low-latency, high-speed, Asian-optimized network
+                solutions to companies. With a solid financial foundation and infrastructure dating back to 2014,
+                customers can trust in the company's IT expertise.
               </Text>
+
               <br />
-              <Text small>
-                Easy Link LLC is located in Los Angeles , it provids low latency and fast speeds, Asian Optimized
-                Network at an affordable price. Companies that hosts their businesses with us can have an ease of mind
-                with the idea that the IT group has been operating since 2014 with a powerful financial backing and
-                infrastructure.
+              <Text p>
+                <Link icon={false} target="" href="#">
+                  <Server size={36} color="CornflowerBlue" />
+                </Link>
+
+                <Spacer inline w={0.5} />
+                <Link icon={false} target="" href="#">
+                  <Cloud size={36} alt="cloud server" color="CornflowerBlue" />
+                </Link>
+
+                <Spacer inline w={0.5} />
+                <Link icon={false} target="" href="#">
+                  <Cpu size={36} alt="hign-end processors" color="CornflowerBlue" />
+                </Link>
+
+                <Spacer inline w={0.5} />
+                <Link icon={false} target="" href="#">
+                  <HardDrive size={36} alt="reliable hard drive" color="CornflowerBlue" />
+                </Link>
+
+                <Spacer inline w={0.5} />
+                <Link icon={false} target="" href="#">
+                  <Database size={36} alt="reliable database" color="CornflowerBlue" />
+                </Link>
+
+                <Spacer inline w={0.5} />
+                <Link icon={false} target="" href="#">
+                  <Shield inline size={36} alt="Anti-DDoS Protection" color="CornflowerBlue" />
+                </Link>
+
+                <Spacer inline w={0.5} />
+                <Link icon={false} target="" href="#">
+                  <Terminal size={36} alt="Full Root Access" color="CornflowerBlue" />
+                </Link>
               </Text>
             </>
           }
-        >
-          <Image width="800px" height="400px" src={connected_world} />
-        </Display>
-
-        <Spacer h={4} />
-        <Features />
-        <Spacer h={4} />
-
-        <Divider>Why us?</Divider>
-
+        ></Display>
         <Spacer h={4} />
         <Products />
+        <Spacer h={4} />
+        <Divider>Why us?</Divider>
+        <Spacer h={4} />
+        <Features />
         <Spacer h={4} />
       </>
     )

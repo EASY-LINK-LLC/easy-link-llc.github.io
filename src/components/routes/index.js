@@ -1,5 +1,4 @@
 import React from "react"
-// import { Link } from 'react-router-dom'
 import { Grid, Link, Text } from "@geist-ui/core"
 
 export default class BasicRoute extends React.Component {

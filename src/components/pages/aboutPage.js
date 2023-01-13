@@ -45,10 +45,12 @@ class AboutPage extends React.Component {
                 <Grid.Container gap={0.5}>
                   <Grid>
                     <Text p>
-                      In our sector, we think that having excellent help at your fingertips when you need it most is
-                      critical to customer happiness. Our fundamental strengths are quick response times and skilled
-                      specialists ready to assist and advise you. We also feel that open and honest communication is
-                      essential for building client trust.
+                      As a leading global provider of bare-metal server hosting, we specialize in providing
+                      state-of-the-art hardware and fast data transport for companies with high bandwidth needs. We
+                      believe that exceptional customer support is crucial for customer satisfaction in our industry.
+                      Our key advantages include fast response times and experienced specialists who are ready to assist
+                      and provide guidance. We also value open and transparent communication as a key component of
+                      building trust with our clients.
                     </Text>
                   </Grid>
                 </Grid.Container>
