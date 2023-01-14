@@ -1,33 +1,34 @@
 import React from "react"
-import { Grid, Link, Text } from "@geist-ui/core"
+import { Grid, Link, Text, Spacer } from "@geist-ui/core"
 
 export default class BasicRoute extends React.Component {
   render() {
     return (
       <>
-        <Grid.Container alignContent="center" gap={0.8}>
-          <Grid xs={6} justify="center">
+        <Spacer h={4} />
+        <Grid.Container gap={1}>
+          <Grid xs={12} md={6} lg={6} width="100%">
             <Text h5>
               <Link href="/" underline>
                 Home
               </Link>
             </Text>
           </Grid>
-          <Grid xs={6} justify="center">
+          <Grid xs={12} md={6} lg={6} width="100%">
             <Text h5>
               <Link href="/price" underline>
                 Price
               </Link>
             </Text>
           </Grid>
-          <Grid xs={6} justify="center">
+          <Grid xs={12} md={6} lg={6} width="100%">
             <Text h5>
               <Link href="/solutions" underline>
                 Solutions
               </Link>
             </Text>
           </Grid>
-          <Grid xs={6} justify="center">
+          <Grid xs={12} md={6} lg={6} width="100%">
             <Text h5>
               <Link href="/about" underline>
                 About

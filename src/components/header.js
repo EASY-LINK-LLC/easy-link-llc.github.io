@@ -8,14 +8,14 @@ export default class Header extends React.Component {
   render() {
     return (
       <>
-        <Spacer h={1} />
-        <Grid.Container alignContent="center">
-          <Grid xs justify="flex-start">
+        <Spacer h inline={true} />
+        <Grid.Container gap={2} justify="center">
+          <Grid xs={12} md={12} lg={14} xl={14} justify="flex-start">
             <Link href="/">
               <img className="logo" src={logo} alt="Easy Link Server" />
             </Link>
           </Grid>
-          <Grid xs={6} justify="flex-end">
+          <Grid xs={12} md={12} lg={8} xl={8} justify="flex-end" alignContent="center">
             <Router />
           </Grid>
         </Grid.Container>

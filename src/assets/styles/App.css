@@ -2,6 +2,7 @@
     filter: grayscale(20%);
     width: 160px;
     height: auto;
+    margin-top: -10%;
 }
 
 .socialIcons a {
