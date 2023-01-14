@@ -1,7 +1,7 @@
 import { Grid, Link, Spacer } from "@geist-ui/core"
 import React from "react"
 
-import logo from "../assets/images/logo.png"
+import logo from "../assets/svg/logo.svg"
 import Router from "./routes"
 
 export default class Header extends React.Component {

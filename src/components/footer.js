@@ -3,7 +3,7 @@ import React from "react"
 import { Button, Description, Drawer, Grid, Image, Input, Link, Spacer, Text } from "@geist-ui/core"
 import { AtSign, Facebook, Github, Gitlab, Linkedin, Twitter } from "@geist-ui/react-icons"
 
-import logo from "../assets/images/logo.png"
+import logo from "../assets/svg/logo.svg"
 
 const FooterCopyright = () => {
   const [state, setState] = React.useState(false)
