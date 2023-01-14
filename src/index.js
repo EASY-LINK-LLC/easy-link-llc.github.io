@@ -7,6 +7,11 @@ import "./assets/styles/App.css"
 import "./assets/styles/index.css"
 import reportWebVitals from "./reportWebVitals"
 
+import ReactGA from "react-ga4"
+
+ReactGA.initialize("G-S5S8MDLVCK")
+ReactGA.send("pageview")
+
 const rootElement = document.getElementById("root")
 
 if (rootElement.hasChildNodes()) {
