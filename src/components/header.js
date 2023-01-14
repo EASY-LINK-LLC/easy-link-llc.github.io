@@ -8,7 +8,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <>
-        <Spacer h inline={true} />
+        <Spacer h />
         <Grid.Container gap={2} justify="center">
           <Grid xs={12} md={12} lg={14} xl={14} justify="flex-start">
             <Link href="/">
