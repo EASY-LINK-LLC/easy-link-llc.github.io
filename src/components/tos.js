@@ -12,6 +12,7 @@ class TermsOfService extends React.Component {
           <br />
           Easy Link Server.com reserves the right to modify the Terms of Service without notice.
           <br />
+          <br />
           <Divider align="start">Use of services</Divider>
           <br />
           You may use our services, provided that you are of legal age to form a binding contract and are not barred
@@ -22,6 +23,7 @@ class TermsOfService extends React.Component {
           account. You agree to immediately notify Easy Link Server.com of any unauthorized use of your account or any
           other breach of security. Easy Link Server.com will not be liable for any loss or damage as a result of your
           failure to provide us with accurate information or to keep your account secure.
+          <br />
           <br />
           <Divider align="start">Acceptable Conduct</Divider>
           <br />
@@ -80,6 +82,7 @@ class TermsOfService extends React.Component {
           Link Server. Any usage that prompts the receipt of abuse complaints pertaining to violation of United States
           and/or international copyright law must be promptly discontinued to avoid service cancellation for violation
           of these terms.
+          <br />
           <br />
           <Divider align="start">Invoicing and Payment</Divider>
           <br />
@@ -190,12 +193,14 @@ class TermsOfService extends React.Component {
           You agree that Easy Link Server.com may provide you with notices, including those regarding changes to the
           Terms of Service, by email, regular mail, or postings on Easy Link Server.com services.
           <br />
+          <br />
           <Divider align="start">Entire Agreement</Divider>
           <br />
           The Terms of Service (including any policies, guidelines or amendments that may be presented to you from time
           to time) constitute the entire agreement between you and Easy Link Server.com and govern your use of Easy Link
           Server.com services, superceding any prior agreements between you and Easy Link Server.com for the use of Easy
           Link Server.com services.
+          <br />
           <br />
           <Divider align="start">Choice of Law and Forum</Divider>
           <br />

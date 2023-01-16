@@ -14,7 +14,6 @@ export default class Policy extends React.Component {
           http://www.EasyLinkServer.com, or any other successor Sites owned or maintained by Easy Link.
           <br />
           <br />
-          <br />
           <Divider>APPROPRIATE USE OF THE SERVICES.</Divider>
           <br />
           Client Content.
