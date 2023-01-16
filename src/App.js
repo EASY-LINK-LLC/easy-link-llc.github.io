@@ -1,6 +1,7 @@
 import React from "react"
 import { Route, Switch } from "react-router-dom"
-import Layout from "./components/layouts/default"
+import DefaultLayout from "./components/layouts/default"
+import MinimalLayout from "./components/layouts/minimal"
 import AboutPage from "./components/pages/aboutPage"
 import HomePage from "./components/pages/homePage"
 import PricePage from "./components/pages/pricePage"
@@ -13,34 +14,48 @@ import TermsPage from "./components/tos"
 export default class App extends React.Component {
   render() {
     return (
-      <Layout>
-        <Switch>
-          <Route path="/policy">
+      <Switch>
+        <Route path="/policy">
+          <MinimalLayout>
             <PolicyPage />
-          </Route>
-          <Route path="/privacy">
+          </MinimalLayout>
+        </Route>
+        <Route path="/privacy">
+          <MinimalLayout>
             <PrivacyPage />
-          </Route>
-          <Route path="/tos">
+          </MinimalLayout>
+        </Route>
+        <Route path="/tos">
+          <MinimalLayout>
             <TermsPage />
-          </Route>
-          <Route path="/solutions">
+          </MinimalLayout>
+        </Route>
+        <Route path="/solutions">
+          <DefaultLayout>
             <SolutionsPage />
-          </Route>
-          <Route path="/price">
+          </DefaultLayout>
+        </Route>
+        <Route path="/price">
+          <DefaultLayout>
             <PricePage />
-          </Route>
-          <Route path="/About">
+          </DefaultLayout>
+        </Route>
+        <Route path="/About">
+          <DefaultLayout>
             <AboutPage />
-          </Route>
-          <Route path="/quote">
+          </DefaultLayout>
+        </Route>
+        <Route path="/quote">
+          <DefaultLayout>
             <QuotePage />
-          </Route>
-          <Route path="/">
+          </DefaultLayout>
+        </Route>
+        <Route path="/">
+          <DefaultLayout>
             <HomePage />
-          </Route>
-        </Switch>
-      </Layout>
+          </DefaultLayout>
+        </Route>
+      </Switch>
     )
   }
 }
