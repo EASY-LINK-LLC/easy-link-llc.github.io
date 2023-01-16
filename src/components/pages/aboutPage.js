@@ -1,8 +1,8 @@
 import { Display, Grid, Image, Spacer, Text } from "@geist-ui/core"
 import React from "react"
 
-import happy_2020 from "../../assets/svg/happy_2020.svg"
-import happy_2021 from "../../assets/svg/happy_2021.svg"
+import happy_2023 from "../../assets/svg/happy_2023.svg"
+import happy_2022 from "../../assets/svg/happy_2022.svg"
 import team from "../../assets/svg/team.svg"
 import Contents from "../contents"
 import FAQ from "../faq"
@@ -23,7 +23,7 @@ class AboutPage extends React.Component {
               </>
             }
           >
-            <Image width="400px" height="200px" src={happy_2021} />
+            <Image width="400px" height="200px" src={happy_2023} />
           </Display>
         </Grid.Container>
         <Spacer h={8} />
@@ -72,7 +72,7 @@ class AboutPage extends React.Component {
             </>
           }
         >
-          <Image width="400px" height="200px" src={happy_2020} />
+          <Image width="400px" height="200px" src={happy_2022} />
         </Display>
 
         <Spacer h={4} />
