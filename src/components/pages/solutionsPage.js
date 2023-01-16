@@ -10,88 +10,6 @@ export default class Solutions extends React.Component {
   render() {
     return (
       <>
-        <Spacer h={4} />
-
-        <Grid.Container gap={1}>
-          <Grid xs>
-            <Card with="100%">
-              <Card.Content>
-                {/* <Image src={proxy_vpn} draggable={true} /> */}
-                <Text h4 mb={0}>
-                  VPN Proxy
-                </Text>
-                <Text p>
-                  Our dense server network, ultra-low latency connection, and nearly infinite IP space are used by the
-                  world's best VPN providers to give borderless online experiences to everyone, wherever, without
-                  sacrificing network performance.
-                </Text>
-              </Card.Content>
-            </Card>
-          </Grid>
-
-          <Grid xs>
-            <Card with="100%">
-              <Card.Content>
-                {/* <Image src={data_server} draggable={true} /> */}
-                <Text h4 mb={0}>
-                  Data Server
-                </Text>
-                <Text p>
-                  We're pleased to provide as many terabytes (or petabytes) as you need, with up to 648 TB of HDD
-                  storage per server, no matter what kind of storage-intensive service you're delivering.
-                </Text>
-              </Card.Content>
-            </Card>
-          </Grid>
-          <Grid xs>
-            <Card with="100%">
-              <Card.Content>
-                {/* <Image src={server_cluster} draggable={true} /> */}
-                <Text h4 mb={0}>
-                  Ad-tech companies
-                </Text>
-                <Text p>
-                  Our network fulfills the severe timeout requirements required to ensure that advertising are served
-                  swiftly and effectively over the best-performing pathways, operating in the single or double-digit
-                  latency range.
-                </Text>
-              </Card.Content>
-            </Card>
-          </Grid>
-          <Grid xs>
-            <Card with="100%">
-              <Card.Content>
-                {/* <Image src={server_cluster} draggable={true} /> */}
-                <Text h4 mb={0}>
-                  Trading platforms and tools
-                </Text>
-                <Text p>
-                  low-latency, times between market events and trade executions benefit exchange platforms, trading
-                  applications, and even retail investors thanks to our low-latency infrastructure.
-                </Text>
-              </Card.Content>
-            </Card>
-          </Grid>
-        </Grid.Container>
-
-        <Spacer h={4} />
-
-        <Grid.Container justify="center" AlignItems="stretch">
-          <Grid xs={12} sm={12} md={12} lg={12}>
-            <Image src={server_cluster} draggable={false} width="200px" />
-          </Grid>
-          <Grid xs={12} sm={12} md={12} lg={12} direction="column">
-            <Dot type="success">Dedicated Network Port (Never Shared Bandwidth)</Dot>
-            <Dot type="success">IPMI (Remote Administration)</Dot>
-            <Dot type="success">24/7/365 Technical Support</Dot>
-            <Dot type="success">Free ASN / IP Space Announcement</Dot>
-            <Dot type="success">Anti-DDoS Protection</Dot>
-            <Dot type="success">Highly Customizable Hardware Configurations</Dot>
-          </Grid>
-        </Grid.Container>
-
-        <Spacer h={4} />
-
         <Grid.Container gap={2} justify="center" alignContent="center">
           <Grid xs>
             <Card shadow>
@@ -211,6 +129,86 @@ export default class Solutions extends React.Component {
                   </Grid>
                 </Grid.Container>
               </Card.Footer>
+            </Card>
+          </Grid>
+        </Grid.Container>
+
+        <Spacer h={4} />
+
+        <Grid.Container justify="center" AlignItems="stretch">
+          <Grid xs={12} sm={12} md={12} lg={12}>
+            <Image src={server_cluster} draggable={false} width="200px" />
+          </Grid>
+          <Grid xs={12} sm={12} md={12} lg={12} direction="column">
+            <Dot type="success">Dedicated Network Port (Never Shared Bandwidth)</Dot>
+            <Dot type="success">IPMI (Remote Administration)</Dot>
+            <Dot type="success">24/7/365 Technical Support</Dot>
+            <Dot type="success">Free ASN / IP Space Announcement</Dot>
+            <Dot type="success">Anti-DDoS Protection</Dot>
+            <Dot type="success">Highly Customizable Hardware Configurations</Dot>
+          </Grid>
+        </Grid.Container>
+
+        <Spacer h={4} />
+
+        <Grid.Container gap={1}>
+          <Grid xs>
+            <Card with="100%">
+              <Card.Content>
+                {/* <Image src={proxy_vpn} draggable={true} /> */}
+                <Text h4 mb={0}>
+                  VPN Proxy
+                </Text>
+                <Text p>
+                  Our dense server network, ultra-low latency connection, and nearly infinite IP space are used by the
+                  world's best VPN providers to give borderless online experiences to everyone, wherever, without
+                  sacrificing network performance.
+                </Text>
+              </Card.Content>
+            </Card>
+          </Grid>
+
+          <Grid xs>
+            <Card with="100%">
+              <Card.Content>
+                {/* <Image src={data_server} draggable={true} /> */}
+                <Text h4 mb={0}>
+                  Data Server
+                </Text>
+                <Text p>
+                  We're pleased to provide as many terabytes (or petabytes) as you need, with up to 648 TB of HDD
+                  storage per server, no matter what kind of storage-intensive service you're delivering.
+                </Text>
+              </Card.Content>
+            </Card>
+          </Grid>
+          <Grid xs>
+            <Card with="100%">
+              <Card.Content>
+                {/* <Image src={server_cluster} draggable={true} /> */}
+                <Text h4 mb={0}>
+                  Ad-tech companies
+                </Text>
+                <Text p>
+                  Our network fulfills the severe timeout requirements required to ensure that advertising are served
+                  swiftly and effectively over the best-performing pathways, operating in the single or double-digit
+                  latency range.
+                </Text>
+              </Card.Content>
+            </Card>
+          </Grid>
+          <Grid xs>
+            <Card with="100%">
+              <Card.Content>
+                {/* <Image src={server_cluster} draggable={true} /> */}
+                <Text h4 mb={0}>
+                  Trading platforms and tools
+                </Text>
+                <Text p>
+                  low-latency, times between market events and trade executions benefit exchange platforms, trading
+                  applications, and even retail investors thanks to our low-latency infrastructure.
+                </Text>
+              </Card.Content>
             </Card>
           </Grid>
         </Grid.Container>

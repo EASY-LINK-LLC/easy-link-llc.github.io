@@ -19,7 +19,7 @@ export default class MinimalLayout extends React.Component {
             </Grid.Container>
           </Page.Content>
 
-          <Spacer h={30} />
+          <Spacer h={25} />
 
           <Page.Footer>
             <Footer />
