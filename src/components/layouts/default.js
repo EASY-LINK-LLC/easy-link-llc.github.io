@@ -1,8 +1,8 @@
 import { Page, Spacer } from "@geist-ui/core"
 import React from "react"
 
-import Footer from "../footer"
-import Header from "../header"
+import Footer from "../sections/footer"
+import Header from "../sections/header"
 
 export default class DefaultLayout extends React.Component {
   render() {

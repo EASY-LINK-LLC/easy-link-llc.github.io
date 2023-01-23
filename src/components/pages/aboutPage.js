@@ -1,11 +1,10 @@
 import { Display, Grid, Image, Spacer, Text } from "@geist-ui/core"
 import React from "react"
-
 import happy_2023 from "../../assets/svg/happy_2023.svg"
 import happy_2022 from "../../assets/svg/happy_2022.svg"
 import team from "../../assets/svg/team.svg"
-import Contents from "../contents"
-import FAQ from "../faq"
+import Contents from "../contents/contents"
+import FAQ from "../contents/faq"
 
 class AboutPage extends React.Component {
   render() {

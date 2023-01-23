@@ -1,8 +1,8 @@
 import { Card, Grid, Image, Text } from "@geist-ui/core"
 import React from "react"
-import applications from "../assets/svg/applications.svg"
-import maintenance from "../assets/svg/maintenance.svg"
-import secure_server from "../assets/svg/secure_server.svg"
+import applications from "../../assets/svg/applications.svg"
+import maintenance from "../../assets/svg/maintenance.svg"
+import secure_server from "../../assets/svg/secure_server.svg"
 
 export default class Features extends React.Component {
   render() {

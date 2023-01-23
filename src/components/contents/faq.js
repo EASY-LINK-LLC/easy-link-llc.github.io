@@ -1,6 +1,6 @@
 import { Collapse, Grid, Image, Link, Text } from "@geist-ui/core"
 import React from "react"
-import Faq from "../assets/svg/faq.svg"
+import Faq from "../../assets/svg/faq.svg"
 
 export default class FAQ extends React.Component {
   render() {

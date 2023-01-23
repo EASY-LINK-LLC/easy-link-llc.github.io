@@ -29,7 +29,7 @@ const routes = [
     }
 ]
 
-export default function SidebarExample() {
+export default function Sidebar() {
     return (
         <Router>
             <div style={{ display: 'flex' }}>

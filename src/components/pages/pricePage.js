@@ -1,7 +1,7 @@
 import { Grid, Link, Spacer, Text } from "@geist-ui/core"
 import React from "react"
-import Faq from "../faq"
-import Products from "../products"
+import Faq from "../contents/faq"
+import Products from "../contents/products"
 
 export default class Price extends React.Component {
   render() {

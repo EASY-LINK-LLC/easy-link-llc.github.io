@@ -2,8 +2,8 @@ import { Display, Divider, Image, Spacer, Text, Link } from "@geist-ui/core"
 import { Cloud, Cpu, Database, HardDrive, Server, Shield, Terminal } from "@geist-ui/react-icons"
 import React from "react"
 import connected_world from "../../assets/svg/connected_world.svg"
-import Features from "../features"
-import Products from "../products"
+import Features from "../contents/features"
+import Products from "../contents/products"
 
 export default class HomePage extends React.Component {
   render() {

@@ -1,4 +1,4 @@
-import { Table, Grid, Image, Text } from "@geist-ui/core"
+import { Button, Grid, Text } from "@geist-ui/core"
 import React from "react"
 
 export function PromotionTable() {
@@ -22,7 +22,6 @@ export function PromotionTable() {
     <>
       <Grid.Container gap={2} justify="center">
         <Grid xs={12} md={6}></Grid>
-
         <Grid xs={12} md={6}></Grid>
       </Grid.Container>
     </>
