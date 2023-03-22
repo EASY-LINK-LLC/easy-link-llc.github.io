@@ -1,4 +1,6 @@
-const webpack = require("webpack")
+import dotenv from 'dotenv'
+import webpack, { DefinePlugin } from 'webpack'
+// const webpack = require("webpack")
 
 module.exports = {
   entry: "./src/index.js",
@@ -18,5 +20,10 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+  plugins: [
+    new DefinePlugin({
+      'process.env': JSON.stringify(dotenv.config().parsed)
+    })
+  ]
 }
