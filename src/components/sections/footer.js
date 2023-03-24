@@ -1,6 +1,6 @@
-import React from "react"
 import { Button, Description, Drawer, Grid, Image, Input, Link, Spacer, Text } from "@geist-ui/core"
 import { AtSign } from "@geist-ui/react-icons"
+import React from "react"
 import logo from "../../assets/svg/logo.svg"
 
 const FooterCopyright = () => {
@@ -13,21 +13,19 @@ const FooterCopyright = () => {
 
   return (
     <>
-      <Grid.Container>
-        <Spacer h={0.5} />
+      <Spacer h={0.5} />
+      <Grid.Container justify="center" alignContent="center">
+        <Grid xs={10}>
+          <Input placeholder="Email" width="100%" />
+          <Spacer inline w={0.35} />
+          <Button type="secondary" ghost auto scale={0.7}>
+            Subscribe
+          </Button>
+        </Grid>
+      </Grid.Container>
 
-        <Grid.Container justify="center" alignContent="center">
-          <Grid xs={10}>
-            <Input placeholder="Email" width="100%" />
-            <Spacer inline w={0.35} />
-            <Button type="secondary" ghost auto scale={0.7}>
-              Subscribe
-            </Button>
-          </Grid>
-        </Grid.Container>
-
-        <Spacer h={5} />
-
+      <Spacer h={5} />
+      <Grid.Container justify="center" alignContent="center">
         <Grid.Container gap={1} justify="center">
           <Grid xs>
             <a href="https://www.easylinkserver.com" rel="noopener noreferrer">
