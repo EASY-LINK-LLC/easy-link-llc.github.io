@@ -1,11 +1,8 @@
 html {
     font-size: 16px;
-    position: relative;
-    min-height: 100%;
 }
 
 body {
-    margin-bottom: 100px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;

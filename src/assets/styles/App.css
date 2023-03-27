@@ -12,9 +12,3 @@
 .socialIcons a:hover {
     color: blue;
 }
-
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}

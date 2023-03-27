@@ -17,7 +17,7 @@ export default class DefaultLayout extends React.Component {
 
           <Spacer h={30} />
 
-          <Page.Footer id="footer">
+          <Page.Footer>
             <Footer />
           </Page.Footer>
         </Page>
