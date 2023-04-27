@@ -1,7 +1,7 @@
 import { Button, Grid, Text } from "@geist-ui/core"
 import React from "react"
 
-export function PromotionTable() {
+const PromotionTable = () => {
   const dataSource = [
     { property: "type", description: "Content type", operation: "" },
     { property: "Component", description: "DOM element to use", operation: "" },
@@ -27,3 +27,4 @@ export function PromotionTable() {
     </>
   )
 }
+export default PromotionTable

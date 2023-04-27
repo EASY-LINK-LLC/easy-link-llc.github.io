@@ -1,32 +1,33 @@
 import { Grid, Link, Spacer, Text } from "@geist-ui/core"
 import React from "react"
-import Faq from "../contents/faq"
-import Products from "../contents/products"
+import { Products, FAQ } from "../contents"
 
-export default class Price extends React.Component {
-  render() {
-    return (
-      <>
-        <Grid.Container gap={0.5}>
-          <Grid xs={24} justify="center" alignContent="center">
-            <Text h2>Get a quote?</Text>
-          </Grid>
-          <Grid xs={24} justify="center" alignContent="center">
-            <Text p>
-              Please{" "}
-              <Link href="/contact" color>
-                contact our sales team
-              </Link>{" "}
-              for more information.
-            </Text>
-          </Grid>
-        </Grid.Container>
-        <Spacer h={4} />
-        <Products />
-        <Spacer h={4} />
+const PricePage = () => {
+  return (
+    <>
+      <Grid.Container gap={0.5}>
+        <Grid xs={24} justify="center" alignContent="center">
+          <Text h2>Get a quote?</Text>
+        </Grid>
+        <Grid xs={24} justify="center" alignContent="center">
+          <Text p>
+            Please{" "}
+            <Link href="/contact" color>
+              contact our sales team
+            </Link>{" "}
+            for more information.
+          </Text>
+        </Grid>
+      </Grid.Container>
 
-        <Faq />
-      </>
-    )
-  }
+      <Spacer h={4} />
+
+      <Products />
+
+      <Spacer h={4} />
+
+      <FAQ />
+    </>
+  )
 }
+export default PricePage

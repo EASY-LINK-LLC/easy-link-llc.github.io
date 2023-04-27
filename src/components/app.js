@@ -2,14 +2,9 @@ import React from "react"
 import { Route, Switch } from "react-router-dom"
 import DefaultLayout from "./layouts/default"
 import MinimalLayout from "./layouts/minimal"
-import AboutPage from "./pages/aboutPage"
-import HomePage from "./pages/homePage"
-import PricePage from "./pages/pricePage"
-import QuotePage from "./pages/qoutePage"
-import SolutionsPage from "./pages/solutionsPage"
-import PolicyPage from "./contents/policy"
-import PrivacyPage from "./contents/privacy"
-import TermsPage from "./contents/tos"
+
+import { SolutionsPage, PricePage, HomePage, QuotePage, AboutPage } from "./pages"
+import { Policy, Privacy, TermsOfService } from "./contents"
 
 export default class App extends React.Component {
   render() {
@@ -17,17 +12,17 @@ export default class App extends React.Component {
       <Switch>
         <Route path="/policy">
           <MinimalLayout>
-            <PolicyPage />
+            <Policy />
           </MinimalLayout>
         </Route>
         <Route path="/privacy">
           <MinimalLayout>
-            <PrivacyPage />
+            <Privacy />
           </MinimalLayout>
         </Route>
         <Route path="/tos">
           <MinimalLayout>
-            <TermsPage />
+            <TermsOfService />
           </MinimalLayout>
         </Route>
         <Route path="/solutions">

@@ -3,7 +3,7 @@ import { AtSign } from "@geist-ui/react-icons"
 import React from "react"
 import logo from "../../assets/svg/logo.svg"
 
-const FooterCopyright = () => {
+const FooterSection = () => {
   const [state, setState] = React.useState(false)
   const [placement, setPlacement] = React.useState("")
   const open = (text) => {
@@ -13,7 +13,6 @@ const FooterCopyright = () => {
 
   return (
     <>
-      <Spacer h={0.5} />
       <Grid.Container justify="center" alignContent="center">
         <Grid xs={10}>
           <Input placeholder="Email" width="100%" />
@@ -178,5 +177,4 @@ const FooterCopyright = () => {
     </>
   )
 }
-
-export default FooterCopyright
+export default FooterSection

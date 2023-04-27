@@ -1,5 +1,5 @@
-import dotenv from 'dotenv'
-import webpack, { DefinePlugin } from 'webpack'
+import dotenv from "dotenv"
+import { DefinePlugin } from "webpack"
 // const webpack = require("webpack")
 
 module.exports = {
@@ -23,7 +23,7 @@ module.exports = {
   },
   plugins: [
     new DefinePlugin({
-      'process.env': JSON.stringify(dotenv.config().parsed)
+      "process.env": JSON.stringify(dotenv.config().parsed)
     })
   ]
 }

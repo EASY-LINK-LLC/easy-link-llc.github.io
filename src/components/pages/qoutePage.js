@@ -1,11 +1,11 @@
-import { Display, Image, Text } from "@geist-ui/core"
+import { Display, Image, Text, Grid } from "@geist-ui/core"
 import React from "react"
 import features_overview from "../../assets/svg/features_overview.svg"
 
-export default class QuotePage extends React.Component {
-  render() {
-    return (
-      <>
+const QuotePage = () => {
+  return (
+    <>
+      <Grid.Container gap={0.5}>
         <Display
           caption={
             <>
@@ -24,7 +24,9 @@ export default class QuotePage extends React.Component {
         >
           <Image width="800px" height="400px" src={features_overview} alt="Feature" />
         </Display>
-      </>
-    )
-  }
+      </Grid.Container>
+    </>
+  )
 }
+
+export default QuotePage

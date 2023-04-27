@@ -1,14 +1,13 @@
-import { Display, Image, Link, Spacer, Text } from "@geist-ui/core"
+import { Display, Image, Link, Spacer, Text, Grid } from "@geist-ui/core"
 import { Cloud, Cpu, Database, HardDrive, Server, Shield, Terminal } from "@geist-ui/react-icons"
 import React from "react"
 import connected_world from "../../assets/svg/connected_world.svg"
-import Features from "../contents/features"
-import Products from "../contents/products"
+import { Features, Products } from "../contents"
 
-export default class HomePage extends React.Component {
-  render() {
-    return (
-      <>
+const HomePage = () => {
+  return (
+    <>
+      <Grid.Container gap={0.5}>
         <Image width="1200px" height="540px" src={connected_world} />
         <Display
           caption={
@@ -58,19 +57,20 @@ export default class HomePage extends React.Component {
             </>
           }
         />
+      </Grid.Container>
 
-        <Spacer h={4} />
+      <Spacer h={4} />
 
-        <Products />
+      <Products />
 
-        <Spacer h={4} />
+      <Spacer h={4} />
 
-        <Spacer h={4} />
+      <Spacer h={4} />
 
-        <Features />
+      <Features />
 
-        <Spacer h={4} />
-      </>
-    )
-  }
+      <Spacer h={4} />
+    </>
+  )
 }
+export default HomePage

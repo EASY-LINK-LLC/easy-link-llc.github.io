@@ -1,7 +1,7 @@
-import { Grid } from "@geist-ui/core"
-import { Facebook, Github, Gitlab, Linkedin, Spacer, Twitter } from "@geist-ui/react-icons"
+import { Grid, Spacer } from "@geist-ui/core"
+import { Facebook, Github, Gitlab, Linkedin, Twitter } from "@geist-ui/react-icons"
 
-export default function SocicalMedia() {
+const SocicalMedia = () => {
   return (
     <>
       {/* Section: Social media */};
@@ -32,3 +32,5 @@ export default function SocicalMedia() {
     </>
   )
 }
+
+export default SocicalMedia
