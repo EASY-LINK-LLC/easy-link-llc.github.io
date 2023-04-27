@@ -9,7 +9,9 @@ export default class BasicRoute extends React.Component {
         <Grid.Container>
           <Grid xs>
             <Text h5>
-              <Link href="/">Home</Link>
+              <Link href="/" block>
+                Home
+              </Link>
             </Text>
           </Grid>
           <Grid xs>
