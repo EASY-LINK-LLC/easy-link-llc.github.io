@@ -1,4 +1,4 @@
-import { Grid, Page } from "@geist-ui/core"
+import { Page, Spacer } from "@geist-ui/core"
 import React from "react"
 import { FooterSection, HeaderSection } from "../sections"
 
@@ -10,13 +10,10 @@ const MinimalLayout = ({ children }) => {
           <HeaderSection />
         </Page.Header>
 
-        <Page.Content>
-          <Grid.Container gap={2} justify="center">
-            <Grid xs={16}>{children}</Grid>
-          </Grid.Container>
-        </Page.Content>
+        <Page.Content>{children}</Page.Content>
 
-        <Page.Footer>
+        <Spacer h={25} />
+        <Page.Footer className="footer">
           <FooterSection />
         </Page.Footer>
       </Page>

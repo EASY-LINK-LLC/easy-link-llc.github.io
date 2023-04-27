@@ -1,28 +1,34 @@
-import { Button, Grid, Text } from "@geist-ui/core"
-import React from "react"
+import { Button, Grid, Text, Table } from "@geist-ui/core"
+import React, { useEffect, useState } from "react"
+import _ from "lodash"
 
 const PromotionTable = () => {
-  const dataSource = [
-    { property: "type", description: "Content type", operation: "" },
-    { property: "Component", description: "DOM element to use", operation: "" },
-    { property: <Text b>bold</Text>, description: "Bold style", operation: "" }
-  ]
-  const [data, setData] = React.useState(dataSource)
-  const renderAction = (value, rowData, index) => {
-    const removeHandler = () => {
-      setData((last) => last.filter((_, dataIndex) => dataIndex !== index))
-    }
-    return (
-      <Button type="error" auto scale={1 / 3} font="12px" onClick={removeHandler}>
-        Remove
-      </Button>
-    )
+  const [products, setProducts] = useState({})
+
+  const getProducts = async () => {
+    await fetch("http://104.149.178.74:5000/api/products", {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    })
+      .then((res) => res.json())
+      .then((data) => setProducts(_.find(data.products)))
   }
+
+  useEffect(() => {
+    getProducts()
+  }, [])
+
   return (
     <>
-      <Grid.Container gap={2} justify="center">
-        <Grid xs={12} md={6}></Grid>
-        <Grid xs={12} md={6}></Grid>
+      <Grid.Container gap={1} justify="center">
+        <Grid xs={12} md={12}>
+          {products &&
+            products.map((p, i) => (
+              <div key={i}>
+                <h2>{p.name}</h2>
+              </div>
+            ))}
+        </Grid>
       </Grid.Container>
     </>
   )

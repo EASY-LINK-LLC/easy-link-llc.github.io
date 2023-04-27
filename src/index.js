@@ -1,44 +1,14 @@
 import { CssBaseline, GeistProvider } from "@geist-ui/core"
 import React from "react"
-import * as ReactDOM from "react-dom"
-// import { hydrate, render } from "react-dom"
-import { BrowserRouter } from "react-router-dom"
+import ReactDOM from "react-dom"
 import "./assets/styles/index.css"
 import App from "./components/app"
 import reportWebVitals from "./reportWebVitals"
-
+import { BrowserRouter } from "react-router-dom"
 import ReactGA from "react-ga4"
 
 ReactGA.initialize("G-S5S8MDLVCK")
 ReactGA.send("pageview")
-
-// const rootElement = document.getElementById("root")
-
-// if (rootElement.hasChildNodes()) {
-//   hydrate(
-//     <React.StrictMode>
-//       <GeistProvider>
-//         <CssBaseline />
-//         <BrowserRouter>
-//           <App />
-//         </BrowserRouter>
-//       </GeistProvider>
-//     </React.StrictMode>,
-//     rootElement
-//   )
-// } else {
-//   render(
-//     <React.StrictMode>
-//       <GeistProvider>
-//         <CssBaseline />
-//         <BrowserRouter>
-//           <App />
-//         </BrowserRouter>
-//       </GeistProvider>
-//     </React.StrictMode>,
-//     rootElement
-//   )
-// }
 
 ReactDOM.render(
   <React.StrictMode>
