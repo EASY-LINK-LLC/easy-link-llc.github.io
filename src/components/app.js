@@ -3,12 +3,12 @@ import { Route, Switch } from "react-router-dom"
 
 import DefaultLayout from "./layouts/default"
 import MinimalLayout from "./layouts/minimal"
-
 import { Policy, Privacy, TermsOfService } from "./contents"
 import { AboutPage, HomePage, PricePage, QuotePage, SolutionsPage } from "./pages"
 
 export default class App extends React.Component {
-  render() {
+  
+    render() {
     return (
       <Switch>
         <Route path="/policy">
