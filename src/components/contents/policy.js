@@ -103,6 +103,13 @@ const Policy = () => {
         <Grid xs={16}>
           <br />
           <p>
+            "We improve our products and advertising by using Microsoft Clarity
+            to see how you use our website. By using our site, you agree that we
+            and Microsoft can collect and use this data. Our privacy statement
+            www.easylinkserver.com/tos.html has more details."
+          </p>
+          <br />
+          <p>
             "We partner with Microsoft Clarity and Microsoft Advertising to
             capture how you use and interact with our website through behavioral
             metrics, heatmaps, and session replay to improve and market our
