@@ -1,14 +1,14 @@
-import { Button, Grid, Text, Table } from "@geist-ui/core"
-import React, { useEffect, useState } from "react"
-import _ from "lodash"
+import { Grid } from '@geist-ui/core'
+import _ from 'lodash'
+import React, { useEffect, useState } from 'react'
 
 const PromotionTable = () => {
   const [products, setProducts] = useState({})
 
   const getProducts = async () => {
-    await fetch("http://104.149.178.74:5000/api/products", {
-      "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "*"
+    await fetch('http://104.149.178.74:5000/api/products', {
+      'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
     })
       .then((res) => res.json())
       .then((data) => setProducts(_.find(data.products)))
